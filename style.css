@@ -58,6 +58,7 @@ h2 {
   margin-left: 0;
   color: var(--text-color);
   text-align: center;
+  margin-top: 10px;
 }
 
 
@@ -132,6 +133,17 @@ nav ul li a:hover {
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: 20px;
   padding: 20px;
+  
+  
+}
+
+#tituloproyecto {
+  grid-column: 1 / -1; /* Ocupa toda la fila */
+  text-align: center;
+  color: var(--text-color);
+  
+  margin-bottom: 20px;
+  font-size: 3em;
   
 }
 
